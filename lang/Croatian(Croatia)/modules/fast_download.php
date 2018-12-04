@@ -30,7 +30,7 @@ define('OGP_LANG_fast_download_service_for', "Usluga Brzo Skidanje za %s");
 define('OGP_LANG_to_the_path', "Na putanju");
 define('OGP_LANG_at_url', "Na URL");
 define('OGP_LANG_create_alias_for', "Stvoriti Brzo Skidanje za");
-define('OGP_LANG_fast_dl', "Stvoriti Brzo Skidanje (FastDL)");
+define('OGP_LANG_fast_dl', "Upravljajte Brzim Skidanjem (FastDL)");
 define('OGP_LANG_current_aliases_at_remote_server', "Trenutni Serveri na kojima se koristi Brzo Skidanje");
 define('OGP_LANG_delete_selected_aliases', "Izbrisati odabrane usluge");
 define('OGP_LANG_no_aliases_defined', "Još ne postoje web usluge Brzo Skidanje koji definira OGP za ovaj udaljeni server.");
