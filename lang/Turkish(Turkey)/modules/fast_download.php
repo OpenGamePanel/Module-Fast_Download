@@ -38,8 +38,9 @@ define('OGP_LANG_fastdl_port', "Port");
 define('OGP_LANG_fastdl_port_info', "Port on which your Fast Download Daemon will start.");
 define('OGP_LANG_fastdl_ip', "IP adresi");
 define('OGP_LANG_fastdl_ip_info', "The IP address or domain in which your Fast Download server will start, the domain must to be listed at /etc/hosts.");
-define('OGP_LANG_listing', "Listing");
-define('OGP_LANG_listing_info', "If 'on', the server will list the contents of folders.");
+define('OGP_LANG_listing', "Listeleme");
+define('OGP_LANG_listing_info', "
+'Açık' ise, sunucu klasörlerin içeriğini listeler.");
 define('OGP_LANG_fast_dl_advanced', "Panel Ayarları");
 define('OGP_LANG_apply_settings_and_restart_fastdl', "Daemon ayarlarını kaydet ve yeniden başlat");
 define('OGP_LANG_stop_fastdl', "Stop Fast Download Daemon");
