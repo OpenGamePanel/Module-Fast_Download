@@ -59,7 +59,7 @@ define('OGP_LANG_games_without_specified_rules', "ألعاب بدون قواعد
 define('OGP_LANG_match_file_extension', "مطابقة امتداد الملف.");
 define('OGP_LANG_match_file_extension_info', "حدد الإضافات مفصولة بفاصلة, <br> وستكون الملفات المطابقة قابلة للوصول إليها. <br> <b> فراغ للوصول الغير مشروط </b>.");
 define('OGP_LANG_match_client_ip', "مطابقة عنوان IP الخاص بالعميل.");
-define('OGP_LANG_match_client_ip_info', "Connections with matching IP will be granted,<br>blank for unrestricted access. You can use<br>multiple IPs or ranges separated by coma:<br>/xx subnets<br>Example: 10.0.0.0/16<br>/xxx.xxx.xxx.xxx subnets<br>Example: 10.0.0.0/255.0.0.0<br>Hyphen ranges<br>Example: 10.0.0.5-230<br>Asterisk matching<br>Example: 10.0.*.*");
+define('OGP_LANG_match_client_ip_info', "سيتم منح الاتصالات مع IP مطابقة ،<br>فارغة للوصول غير المقيد. يمكنك استخدام<br>عناوين IP أو نطاقات متعددة مفصولة بفاصلة:<br>/xx subnets<br>مثال: 10.0.0.0/16<br>/xxx.xxx.xxx.xxx subnets<br>مثال: 10.0.0.0/255.0.0.0<br>النطاقات الواصلة<br>مثال: 10.0.0.5-230<br>مطابقة النجمة<br>مثال: 10.0. *. *");
 define('OGP_LANG_save_access_rules', "حفظ قواعد الوصول");
 define('OGP_LANG_create_access_rules', "إنشاء قواعد الوصول");
 define('OGP_LANG_invalid_entries_found', "تم العثور على إدخالات غير صالحة");
