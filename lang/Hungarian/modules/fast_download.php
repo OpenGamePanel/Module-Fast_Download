@@ -33,7 +33,7 @@ define('OGP_LANG_create_alias_for', "Álnév létrehozása ehhez");
 define('OGP_LANG_fast_dl', "Átirányított letöltések (FastDL)");
 define('OGP_LANG_current_aliases_at_remote_server', "Jelenlegi álnevek a távoli szerveren");
 define('OGP_LANG_delete_selected_aliases', "Kiválasztott álnevek törlése");
-define('OGP_LANG_no_aliases_defined', "There are no web aliases defined by OGP for this remote server yet.");
+define('OGP_LANG_no_aliases_defined', "Ehhez a távoli kiszolgálóhoz még nincsenek az OGP által definiált webaliasok.");
 define('OGP_LANG_fastdl_port', "Port");
 define('OGP_LANG_fastdl_port_info', "A port, amelyen a gyors letöltési démonod el fog indulni.");
 define('OGP_LANG_fastdl_ip', "Cím");
@@ -59,16 +59,16 @@ define('OGP_LANG_games_without_specified_rules', "Játékok speciális szabályo
 define('OGP_LANG_match_file_extension', "Fájl kiterjesztés párosítás");
 define('OGP_LANG_match_file_extension_info', "Kiterjesztések meghatározása vesszővel elválasztva,<br>a megfelelő fájlok hozzáférhetőek lesznek.<br><b>Hagyd üresen a korlátlan hozzáféréshez</ b>.");
 define('OGP_LANG_match_client_ip', "Kliens IP párosítás");
-define('OGP_LANG_match_client_ip_info', "Connections with matching IP will be granted,<br>blank for unrestricted access. You can use<br>multiple IPs or ranges separated by coma:<br>/xx subnets<br>Example: 10.0.0.0/16<br>/xxx.xxx.xxx.xxx subnets<br>Example: 10.0.0.0/255.0.0.0<br>Hyphen ranges<br>Example: 10.0.0.5-230<br>Asterisk matching<br>Example: 10.0.*.*");
+define('OGP_LANG_match_client_ip_info', "A megadott IP címekről érkező kapcsolatok biztosnágosként lesznek megjelölve, míg a más IP címekről érkező kapcsolódási kérelmek el lesznek utasítva.<br>Ha üressen hagyod ezeket a mezőket bármely IP címről érkező kapcsolódási kérés el lesz fogadva (nem túl biztonságos).<br>Használható:<br>több IP cím megadása elválasztva őket egymástó vesszővel:<br>/xx alhálózatok<br>Például: 10.0.0.0./16<br>//xxx.xxx.xxx.xxx alhálózatok<br>Például: 10.0.0.0/255.0.0.0<br>Tartományok megadása kötőjellel<br>Például:  10.0.0.5-230<br>Helyettesítő karakterrel egyeztetés<br>Például: 10.0.*.*");
 define('OGP_LANG_save_access_rules', "Hozzáférési szabályok mentése");
 define('OGP_LANG_create_access_rules', "Hozzáférési szabályok létrehozása");
 define('OGP_LANG_invalid_entries_found', "Érvénytelen bejegyzés található");
 define('OGP_LANG_game_name', "Játék neve");
 define('OGP_LANG_alias_already_exists', "A(z) %s álnév már létezik.");
-define('OGP_LANG_warning_access_rules_applied_once_alias_created', "WARNING: Access rules are applied when the alias is created. No changes will be applied to the current aliases.");
+define('OGP_LANG_warning_access_rules_applied_once_alias_created', "FIGYELEM: A hozzáférési szabályok engedélyezve lesznek, amikor az álnév létrehozásra kerül. A már létrehozott álnevekre a változtatások nem kerülnek alkalmazásra.");
 define('OGP_LANG_autostart_on_agent_startup', "Automata indítás az Agent elindulásakor");
 define('OGP_LANG_autostart_on_agent_startup_info', "A gyors letöltési démon automatikus elindítása, amikor az Agent elindul.");
 define('OGP_LANG_port_forwarded_to_80', "Port továbbítása 80-ról");
-define('OGP_LANG_port_forwarded_to_80_info', "Enable this option if the port configured for this fast download daemon has been forwarded from port 80, so the port will be hidden at URLs.");
+define('OGP_LANG_port_forwarded_to_80_info', "Engedélyezd ezt az opciót, ha a gyors letöltési démonhoz konfigurált portot a 80-as portról (alap HTTP port) átirányították egy másik portra, így a port rejtve marad az URL-eknél.");
 define('OGP_LANG_current_access_rules', "Jelenlegi hozzáférési szabályok");
 ?>
